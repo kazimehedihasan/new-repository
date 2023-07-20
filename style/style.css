@@ -275,9 +275,15 @@ background: #9e9aa8;
 .privacy{
     text-align: center;
 }
+.privacy img{
+    width: 86.041px;
+height: 40px;
+text-align: center;
+}
 .spanes{
-    margin-top: 100px;
-    font-size: 50px;
+    text-align: center;
+font-size: 45px;
+font-weight: 700;
 }
 .our-story{
     gap: 60px;
@@ -294,7 +300,7 @@ margin-top: 100px;
     display: flex;
     gap: 60px;
     margin-left: 309px;
-    color: rgba(255, 255, 255, 0.60);
+    color: rgba(239, 227, 227, 0.6);
 text-align: center;
 font-size: 16px;
 font-weight: 500;
@@ -320,22 +326,25 @@ font-weight: 500;
     header{
         padding: 20px;
     }
-    nav, .teams-containe .facts-card-container .sponsors-img-container{
+    .section-title, .teams-img-container{
         flex-direction: column;
     }
-    .teams-content{
+    .Followt{
         padding-right: 20px;
         padding-left: 20px;
         }
-        .sponsors-img-container img{
-            width: 165px;
-        }
-        .sponsors-img-container{
+    
+        .feature-img{
             margin-top:50px;
             display: flex;
             justify-content: space-evenly;
             align-items: center;
             gap: 30px;
+        }
+        .facts{
+            flex-direction: column;
+            height: 100px;
+            width: 100px;
         }
 
 }
@@ -345,10 +354,10 @@ font-weight: 500;
     header{
         padding: 50px;
     }
-    nav, .teams-containe .facts-card-container{
+    nav, .feature-contener .facts-card-container{
         flex-direction: column;
     }
-    .teams-img-containe, .sponsors-img-container{
+    .teams-img-container, .online-games{
 grid-template-columns: 1fr;
     }
 }
